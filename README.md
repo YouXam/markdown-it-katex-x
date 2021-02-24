@@ -21,14 +21,14 @@ npm install markdown-it
 Install the plugin
 
 ```
-npm install markdown-it-katex-external
+npm install @youxam/markdown-it-katex-x
 ```
 
 Use it in your javascript
 
 ```javascript
 var md = require('markdown-it')(),
-    mk = require('markdown-it-katex-external');
+    mk = require('markdown-it-katex-x');
 
 md.use(mk);
 
