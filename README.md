@@ -28,7 +28,7 @@ Use it in your javascript
 
 ```javascript
 var md = require('markdown-it')(),
-    mk = require('markdown-it-katex-x');
+    mk = require('@youxam/markdown-it-katex-x');
 
 md.use(mk);
 
